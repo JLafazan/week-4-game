@@ -1,0 +1,172 @@
+body{
+
+background: url("../images/vintage-concrete.png");
+}
+
+p {
+	font-family: comic sans, Arial;
+	font-size: 15px;
+}
+
+/*h1 {
+	font-size: 30px;
+	margin-left: 10px;
+
+}
+*/
+h4 {
+	font-size: 40px;
+
+}
+
+
+.galaxy-image{
+  width: 150px;
+  height:150px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/*.galaxy-image1{
+  width: 100px;
+  height:100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.galaxy-image2{
+  width: 100px;
+  height:100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.galaxy-image3{
+  width: 100px;
+  height:100px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}*/
+
+
+
+
+
+header {
+	background: lightblue;
+	font-size: 30px;
+	width: 210px;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}
+
+#instruct {
+	background: lightgreen;
+	font-size: 20px;
+	width: 350px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.main_container {
+  width: 500px;
+  height:100px;
+}
+
+.conleft {
+	float:left;
+	background: green;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+.conright {
+	float: left;
+	background: green;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+#scoreline {
+	float:left;
+	background: teal;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+
+.bconleft {
+	float:left;
+	background: teal;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+#bot2_container {
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#bot3_container {
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 200px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+
+
+
+
+#score {
+	margin-left: 65px;
+	margin-top: 20px;
+	
+
+}
+
+
+.footer2 {
+	float:left;
+	background: green;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}
+
+.footer3 {
+	float:left;
+	background: green;
+	font-size: 20px;
+	width: 160px;
+	height: 80px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+
+}

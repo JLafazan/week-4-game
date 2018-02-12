@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galaxy Of Stars</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<header>
+<strong>*!GalaxyWild!*</strong>
+</header>
+
+<body>
+
+	<div id=instruct>
+		<p>You will be given a random number at the start of the game.</p>
+		<p>--------</p>
+		<p>There are four Star Galaxies below. By clicking on a galaxies you will add a specific amount of points to your total score.</p>
+		<p>--------</p>
+		<p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+		<p>--------</p>
+	</div>
+<div class="main_container">
+
+	<div class="conleft">
+  <div id="target">
+  <h1>Target Number: <span id="target-number"></span></h1>
+  </div>
+</div>
+
+<div class="conright">
+<div id="wins">
+  <h1>Wins: <span id="wins-here">---</span></h1>
+  </div>
+
+<div id="losses">
+  <h1>Losses: <span id="losses-here">---</span></h1>
+  </div>
+</div>
+
+</div>
+  <!-- Note that this div is now empty. We will fill it dynamically -->
+  <!-- <footer1> -->
+  <div id="galaxies">
+  </div>
+  
+  
+
+
+<div id="scoreline">
+		<h1>Your total score is:</h1>
+	</div>
+
+<div class="bottom_container">
+ 	<div class="bconleft">
+  		<div id="score">
+  			<h4> <span id="score-here">0</span></h4>
+  		</div>
+	</div>
+
+
+</div>
+
+<div id="bot2_container">
+	<button id ="button_reset">RESET</button>
+ 
+</div>
+
+<div id="bot3_container">
+
+<audio id="myAudio">
+  <source src="assets/audio/HereIGoAgain.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+
+</div>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+</body>
+</html>
